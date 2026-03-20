@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Papelería Chocolate — Copy & Print</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<nav>
+  <div class="nav-logo">
+    <img src="data:image/jpeg;base64,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" alt="Logo Papelería Chocolate">
+    <div>
+      <div class="nav-logo-text">Papelería Chocolate</div>
+      <div class="nav-logo-sub">Copy &amp; Print · 20 años</div>
+    </div>
+  </div>
+  <div class="nav-links">
+    <a href="#servicios">Servicios</a>
+    <a href="#catalogo">Catálogo</a>
+    <a href="#contacto">Contacto</a>
+  </div>
+  <a href="https://wa.me/59899214898" class="nav-cta">📲 WhatsApp</a>
+</nav>
+
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="hero-bg-dots"></div>
+  <div class="hero-logo-wrap">
+    <img src="data:image/jpeg;base64,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" alt="Logo Papelería Chocolate">
+  </div>
+  <div class="hero-badge">⭐ 20 años de experiencia</div>
+  <h1>Tu papelería<br><span>de confianza</span></h1>
+  <p>Impresión, papelería, regalos personalizados y mucho más. Enviamos a todo el país.</p>
+  <div class="hero-btns">
+    <a href="#catalogo" class="btn-primary">Ver catálogo</a>
+    <a href="#contacto" class="btn-secondary">Pedir cotización</a>
+  </div>
+  <div class="hero-chips">
+    <span class="chip">🖨️ Impresión 3D</span>
+    <span class="chip">🎂 Láminas comestibles</span>
+    <span class="chip">🏷️ Etiquetas personalizadas</span>
+    <span class="chip">🎓 Vasos egresados</span>
+    <span class="chip">📦 Envíos nacionales</span>
+  </div>
+</section>
+
+<!-- ===== SERVICES ===== -->
+<section class="services" id="servicios">
+  <h2 class="section-title">¿Qué hacemos?</h2>
+  <p class="section-sub">Servicios para estudiantes, empresas y todo el que necesite imprimir o crear</p>
+  <div class="services-grid">
+    <div class="service-card yellow">
+      <span class="service-icon">🖨️</span>
+      <h3>Impresión digital</h3>
+      <p>Libros, planos, fotos, documentos. Color y B&amp;N.</p>
+    </div>
+    <div class="service-card pink">
+      <span class="service-icon">🏷️</span>
+      <h3>Etiquetas personalizadas</h3>
+      <p>Vinilo adhesivo, troqueladas, a prueba de agua.</p>
+    </div>
+    <div class="service-card blue">
+      <span class="service-icon">🎂</span>
+      <h3>Láminas comestibles</h3>
+      <p>Para tortas, cupcakes y galletas. 100% personalizadas.</p>
+    </div>
+    <div class="service-card green">
+      <span class="service-icon">🎓</span>
+      <h3>Vasos egresados</h3>
+      <p>400ml, impresión a todo color. Mínimo 12 unidades.</p>
+    </div>
+    <div class="service-card orange">
+      <span class="service-icon">📚</span>
+      <h3>Bibliografía ANEP</h3>
+      <p>Normativa y materiales para concursos docentes.</p>
+    </div>
+    <div class="service-card brown">
+      <span class="service-icon">📦</span>
+      <h3>Envíos al país</h3>
+      <p>Despachamos a todo Uruguay con seguimiento.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PROMO BANNER ===== -->
+<div class="promo-banner">
+  <div class="promo-text">
+    <strong>🏷️ 50 etiquetas por $390</strong>
+    <span>Vinilo adhesivo · Troqueladas · Resistentes al agua</span>
+  </div>
+  <a href="https://wa.me/59899214898?text=Hola,%20quiero%20pedir%20etiquetas%20personalizadas" class="btn-primary">Pedir ahora</a>
+</div>
+
+<!-- ===== CATALOG ===== -->
+<section class="catalog" id="catalogo">
+  <h2 class="section-title">Catálogo</h2>
+  <p class="section-sub">Algunos de nuestros productos más populares</p>
+  <div class="catalog-tabs">
+    <button class="tab-btn active" onclick="filterCat(this,'todos')">Todos</button>
+    <button class="tab-btn" onclick="filterCat(this,'impresion')">Impresión</button>
+    <button class="tab-btn" onclick="filterCat(this,'personalizados')">Personalizados</button>
+    <button class="tab-btn" onclick="filterCat(this,'papeleria')">Papelería</button>
+  </div>
+  <div class="products-grid" id="products-grid"></div>
+</section>
+
+<!-- ===== WHY US ===== -->
+<section class="why-us">
+  <div class="why-inner">
+    <h2 class="section-title">¿Por qué elegirnos?</h2>
+    <p class="section-sub">Más de dos décadas siendo la papelería favorita del barrio</p>
+    <div class="why-grid">
+      <div class="why-card">
+        <span class="icon">🏆</span>
+        <h4>20 años de experiencia</h4>
+        <p>Dos décadas atendiendo a estudiantes, familias y empresas de todo Uruguay.</p>
+      </div>
+      <div class="why-card">
+        <span class="icon">⚡</span>
+        <h4>Entrega rápida</h4>
+        <p>Retiro en local o envío a domicilio. Sabemos que el tiempo importa.</p>
+      </div>
+      <div class="why-card">
+        <span class="icon">🎨</span>
+        <h4>100% personalizado</h4>
+        <p>Cada producto se adapta a tu pedido. Traé tu diseño o lo creamos juntos.</p>
+      </div>
+      <div class="why-card">
+        <span class="icon">💬</span>
+        <h4>Atención directa</h4>
+        <p>Respondemos por WhatsApp. Sin bots, sin esperas largas.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section class="contact" id="contacto">
+  <h2 class="section-title">Encontranos</h2>
+  <p class="section-sub">Estamos en Montevideo y enviamos a todo el país</p>
+  <div class="contact-cards">
+    <div class="contact-card">
+      <span class="icon">📍</span>
+      <h5>Local</h5>
+      <p>Garzón 1929bis, local 4<br>Galería Colón, Montevideo</p>
+    </div>
+    <div class="contact-card">
+      <span class="icon">📱</span>
+      <h5>WhatsApp</h5>
+      <p>099 214 898<br>Lun–Sáb, horario comercial</p>
+    </div>
+    <div class="contact-card">
+      <span class="icon">📸</span>
+      <h5>Instagram</h5>
+      <p>@papeleria_chocolate<br>184 publicaciones</p>
+    </div>
+  </div>
+  <a href="https://wa.me/59899214898?text=Hola,%20me%20gustar%C3%ADa%20hacer%20un%20pedido" class="whatsapp-btn">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="white">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+    Escribinos por WhatsApp
+  </a>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <strong>Papelería Chocolate</strong> · Copy &amp; Print · Garzón 1929bis local 4, Galería Colón, Montevideo<br>
+  20 años acompañando tus proyectos · Envíos a todo Uruguay
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
